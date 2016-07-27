@@ -1,0 +1,35 @@
+//“Preferences”——“Key Bindings—User”出现一个空白页面：英文版本）
+[
+	{ 
+		"keys": ["f1"], 
+		"command": "side_bar_files_open_with", 
+		"args": 
+		{ 
+			"paths": [], 
+			"application": "C:\\Program Files\\Internet Explorer\\iexplore.exe", 
+			"extensions": ".*" 
+		} 
+	}, 
+	//chorme 
+	{ 
+		"keys": ["f2"], 
+		"command": "side_bar_files_open_with", 
+		"args": 
+		{ 
+			"paths": [], 
+			"application": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe", 
+			"extensions": ".*" 
+		} 
+	},
+	//firefox 
+	{ 
+		"keys": ["f3"], 
+		"command": "side_bar_files_open_with", 
+		"args": 
+		{ 
+			"paths": [], 
+			"application": "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe", 
+			"extensions": ".*" 
+		} 
+	} 		 	
+]
