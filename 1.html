@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>vue for test</title>
+</head>
+
+<body>
+    <template v-for="item in items">
+        <h1 v-if="item.type == 'h1'">{{ item.value }}</h1>
+        <h2 v-if="item.type == 'h2'"> {{ item.value }} </h2>
+        <span v-if="item.type == 'span'"> {{ item.value }} </span>
+    </template>
+    <script type="text/javascript" src="./lib/vue/dist/vue.js"></script>
+    <script type="text/javascript">
+    var vm = new Vue({
+        el: 'body',
+        data: {
+            items: [{
+                value: 'name1',
+                type: 'h1'
+            }, {
+                value: 'name2',
+                type: 'h2'
+            }, {
+                value: 'name3',
+                type: 'span'
+            }]
+        }
+    });
+    </script>
+</body>
+
+</html>
