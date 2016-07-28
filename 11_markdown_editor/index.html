@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="./style.css">
+	<script src="../lib/vue/dist/vue.js"></script>
+</head>
+<body>
+	<div id="editor">
+		<textarea name="" id="" cols="30" rows="10" v-model="input" debounce="300"></textarea>
+		<div v-html="input | marked"></div>
+	</div>
+</body>
+	<script src="./index.js"></script>
+</html>
